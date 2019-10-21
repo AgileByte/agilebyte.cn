@@ -1,0 +1,33 @@
+name: CI
+
+on: [push]
+
+jobs:
+  buildAndDeploy:
+    runs-on: ubuntu-latest
+    steps:
+
+    # https://github.com/actions/checkout/issues/35#issuecomment-536712162
+    - name: Fix up git URLs
+      run: |
+        git config --global --add url."https://${{ secrets.GITHUB_SECRET }}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+        git config --global --add url."https://${{ secrets.GITHUB_SECRET }}:x-oauth-basic@github.com/".insteadOf "git@github.com:"
+
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+
+    - name: Hugo Build
+      uses: jakejarvis/hugo-build-action@master
+      with:
+        args: --disableKinds RSS,sitemap --cleanDestinationDir
+
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.ftp_url }}
+        FTP_USERNAME: ${{ secrets.ftp_user }}
+        FTP_PASSWORD: ${{ secrets.ftp_password }}
+        LOCAL_DIR: ./public
+        REMOTE_DIR: ./htdocs
+        ARGS: --verbose
