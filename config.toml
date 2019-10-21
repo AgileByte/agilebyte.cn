@@ -5,9 +5,7 @@ theme = "agilebyte-hugo-theme"
 
 [params]
   google_analytics_id=""
-  sub_footer='<span>粤 ICP 备 19067155 号</span> | <span id="cnzz_stat_icon_127
-7587837"><a href="https://www.cnzz.com/stat/website.php?web_id=1277587837" targe
-t="_blank" title="站长统计">CNZZ</a></span>'
+  sub_footer='<span>粤 ICP 备 19067155 号</span> | <span id="cnzz_stat_icon_1277587837"><a href="https://www.cnzz.com/stat/website.php?web_id=1277587837" target="_blank" title="站长统计">CNZZ</a></span>'
   tawk_to_id="5ccc25a32846b90c57acaf4c"
   cnzz_id="1277587837"
 
