@@ -1,0 +1,43 @@
+baseURL = "https://agilebyte.cn/"
+languageCode = "en-us"
+title = "AgileByte"
+theme = "agilebyte-hugo-theme"
+
+[params]
+  google_analytics_id=""
+  sub_footer='<span>粤 ICP 备 19067155 号</span> | <span id="cnzz_stat_icon_127
+7587837"><a href="https://www.cnzz.com/stat/website.php?web_id=1277587837" targe
+t="_blank" title="站长统计">CNZZ</a></span>'
+  tawk_to_id="5ccc25a32846b90c57acaf4c"
+  cnzz_id="1277587837"
+
+  [params.homepage_meta_tags]
+    meta_description = "AgileByte 敏捷字节是一家能够提供高效率、高质量技术支持的软件公司。"
+    meta_og_title = "AgileByte 敏捷字节"
+    meta_og_type = "website"
+    meta_og_url = "https://agilebyte.cn"
+    meta_og_image = "https://avatars0.githubusercontent.com/u/49426369"
+    meta_og_description = "AgileByte 敏捷字节是一家能够提供高效率、高质量技术支持的软件公司。"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@nekocode_cn"
+    meta_twitter_creator = "@nekocode_cn"
+
+[[menu.main]]
+	name = "服务"
+	url = "services/"
+    weight = 1
+
+[[menu.main]]
+    name = "团队"
+    url = "team/"
+    weight = 2
+
+[[menu.main]]
+	name = "洞见"
+	url = "posts/"
+	weight = 3
+
+[[menu.main]]
+    name = "联系我们"
+    url = "contact/"
+    weight = 4

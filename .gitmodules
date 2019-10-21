@@ -1,0 +1,3 @@
+[submodule "themes/agilebyte-hugo-theme"]
+	path = themes/agilebyte-hugo-theme
+	url = git@github.com:AgileByte/agilebyte-hugo-theme.git

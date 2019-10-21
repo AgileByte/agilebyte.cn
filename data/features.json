@@ -1,0 +1,27 @@
+[
+  {
+    "title": "顶尖的开发人员",
+    "description": "我们拥有业界最顶尖的开发人员。",
+    "image": "/features/top_developer.svg"
+  },
+  {
+    "title": "更专业的服务",
+    "description": "我们拥有更高的效率和质量。",
+    "image": "/features/3d_modeling.svg"
+  },
+  {
+    "title": "更先进的技术",
+    "description": "我们采用业界更先进的技术栈。",
+    "image": "/features/the_process.svg"
+  },
+  {
+    "title": "持续交付",
+    "description": "客户能够持续获得我们的阶段交付。",
+    "image": "/features/progress.svg"
+  },
+  {
+    "title": "免费咨询",
+    "description": "我们为新客户提供免费的咨询服务。",
+    "image": "/features/technical_support.svg"
+  }
+]
