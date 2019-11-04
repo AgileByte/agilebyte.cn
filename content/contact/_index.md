@@ -6,9 +6,9 @@ title: '联系我们'
 
 您可以通过网站右下角的聊天按钮与我们即时交流，或者通过以下更多途经联系我们：
 
-* 微信: ***nekocode***
 * Tawk.to: **<a href="https://tawk.to/nekocode" target="_blank">杨凡</a>**
 * 电子邮件: **[nekocode.cn@gmail.com](mailto:nekocode.cn@gmail.com)**
+* 微信公众号: ***agilebyte***
 
 我们非常希望可以帮助到您并与您一起工作，期待能和您进行互动！
 
