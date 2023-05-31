@@ -10,9 +10,8 @@ theme = "agilebyte-hugo-theme"
 
 [params]
   google_analytics_id=""
-  sub_footer='<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备19067155号-1</a> · <span id="cnzz_stat_icon_1277587837"><a href="https://www.cnzz.com/stat/website.php?web_id=1277587837" target="_blank" title="站长统计">CNZZ</a></span>'
+  sub_footer='<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备19067155号-1</a>'
   tawk_to_id="5ccc25a32846b90c57acaf4c"
-  cnzz_id="1277587837"
 
   [params.homepage_meta_tags]
     meta_description = "AgileByte 敏捷字节是一家能够提供高效率、高质量技术支持的软件公司。"
